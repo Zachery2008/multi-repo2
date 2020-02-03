@@ -10,3 +10,11 @@ spec:
       name: http
   selector:
     app: multi-repo2
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: multi-repo2-info
+  labels:
+    account: multi-repo2
