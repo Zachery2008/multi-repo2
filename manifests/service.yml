@@ -1,7 +1,7 @@
 ﻿apiVersion: v1
 kind: Service
 metadata:
-  name: hello-world-service
+  name: multi-repo2-service
   namespace: test
 spec:
   type: LoadBalancer
@@ -9,4 +9,4 @@ spec:
   - port: 80 
     targetPort: 3000
   selector:
-    app: hello-world
+    app: multi-repo2
