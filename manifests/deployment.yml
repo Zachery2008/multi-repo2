@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: zachtest 
-        image: senzakstest.azurecr.io/zachtest:latest
+        image: senzakstest.azurecr.io/zachtestmultirepo2:latest
         ports:
         - containerPort: 3000
