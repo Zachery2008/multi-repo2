@@ -4,6 +4,7 @@ metadata:
   name: multi-repo2-service
   namespace: test
 spec:
+  type: ClusterIP
   ports:
   - port: 80 
     targetPort: 3000
