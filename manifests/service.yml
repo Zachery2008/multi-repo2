@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: multi-repo2-service
+  name: multi-repo2
   namespace: test
 spec:
   type: ClusterIP

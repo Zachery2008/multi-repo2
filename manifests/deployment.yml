@@ -15,8 +15,9 @@ spec:
       labels:
         app: multi-repo2
     spec:
+      serviceAccountName: multi-repo2
       containers:
-      - name: zachtest 
+      - name: multi-repo2
         image: senzakstest.azurecr.io/zachtestmultirepo2:latest
         ports:
         - containerPort: 3001
