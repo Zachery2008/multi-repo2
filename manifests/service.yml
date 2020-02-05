@@ -6,7 +6,7 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-    - port: 3001
+    - port: 3000
       name: http
   selector:
     app: multi-repo2
@@ -15,6 +15,6 @@ spec:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: multi-repo2-info
+  name: multi-repo2
   labels:
     account: multi-repo2
